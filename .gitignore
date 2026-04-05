@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+*.egg-info/
+
+# Django
+*.log
+db.sqlite3
+/media/
+/staticfiles/
+.env
+
+# ML model artifacts (regenerated on deploy)
+backend/ml_engine/models/
+
+# Node / React
+node_modules/
+dist/
+.vite/
+*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
